@@ -61,21 +61,21 @@ const Home = () => {
                 </div>
 
         {/*3 Stats */}
-        <div class="box3 flex items-center justify-evenly lg:flex-col xl:h-[331px] mt-[40px] lg:mb-[40px] text-[#1a1a29] bg-[#1a1a29]">
+        <div class="box3 flex items-center justify-evenly lg:flex-col xl:h-[331px] mt-[40px] lg:mb-[40px] xl:text-[#1a1a29] bg-[#1a1a29]">
 
-                    <div class='counter rounded-[100px] bg-[#fec400] w-[170px] xl:h-[170px] pt-[25px] lg:h-[144px] text-center'>
+                    <div class='counter rounded-[100px] xl:bg-[#fec400] w-[170px] xl:h-[170px] pt-[25px] lg:h-[144px] text-center'>
                         <span class="box3-value text-4xl  font-bold">02</span>
-                        <span class="box3-f1-head text-[1.3rem] font-semibold">+<br/>Years of<br/>Experience<br/></span>
+                        <span class="box3-f1-head text-[1.3rem] xl:font-semibold">+<br/>Years of<br/>Experience<br/></span>
                     </div>
 
-                    <div class='counter rounded-[100px] bg-[#fec400] w-[170px] xl:h-[170px] pt-[25px] lg:h-[144px] text-center'>
+                    <div class='counter rounded-[100px] xl:bg-[#fec400] w-[170px] xl:h-[170px] pt-[25px] lg:h-[144px] text-center'>
                         <span class="box3-value text-4xl  font-bold">06</span>
-                        <span class="box3-f2-head text-[1.3rem] font-semibold">+<br/>Projects<br/>Completed<br/></span>
+                        <span class="box3-f2-head text-[1.3rem] xl:font-semibold">+<br/>Projects<br/>Completed<br/></span>
                     </div>
 
-                    <div class='counter rounded-[100px] bg-[#fec400] w-[170px] xl:h-[170px] pt-[25px] lg:h-[144px] text-center'>
+                    <div class='counter rounded-[100px] xl:bg-[#fec400] w-[170px] xl:h-[170px] pt-[25px] lg:h-[144px] text-center'>
                         <span class="box3-value text-4xl  font-bold">08</span>
-                        <span class="box3-f3-head text-[1.3rem] font-semibold">+<br/>Certifications<br/>Completed<br/></span>
+                        <span class="box3-f3-head text-[1.3rem] xl:font-semibold">+<br/>Certifications<br/>Completed<br/></span>
                     </div>
                     
         </div>

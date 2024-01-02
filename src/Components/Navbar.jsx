@@ -14,10 +14,10 @@ export const Navbar = () => {
         
 
             <div className="flex items-center ml-auto">
-                <p className="text-[1.5rem] lg:text-[1rem] font-poppins pl-[10px] pr-[10px] cursor-pointer" onClick={scrollToAbout}>About</p>
-                <p className="text-[1.5rem] lg:text-[1rem] font-poppins pl-[10px] pr-[10px] cursor-pointer" onClick={scrollToSkills}>Skills</p>
-                <p className="text-[1.5rem] lg:text-[1rem] font-poppins pl-[10px] pr-[10px] cursor-pointer" onClick={scrollToProjects}>Projects</p>
-                <p className="text-[1.5rem] lg:text-[1rem] font-poppins pl-[10px] pr-[20px] cursor-pointer" onClick={scrollToFooter}>Contact</p>
+                <p className="text-[1.5rem] lg:text-[1rem] font-poppins xl:pl-[10px] pr-[10px] cursor-pointer" onClick={scrollToAbout}>About</p>
+                <p className="text-[1.5rem] lg:text-[1rem] font-poppins xl:pl-[10px] pr-[10px] cursor-pointer" onClick={scrollToSkills}>Skills</p>
+                <p className="text-[1.5rem] lg:text-[1rem] font-poppins xl:pl-[10px] pr-[10px] cursor-pointer" onClick={scrollToProjects}>Projects</p>
+                <p className="text-[1.5rem] lg:text-[1rem] font-poppins xl:pl-[10px] pr-[20px] lg:pr-[10px] cursor-pointer" onClick={scrollToFooter}>Contact</p>
             </div>
 
         </div>

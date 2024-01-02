@@ -22,7 +22,7 @@ export const Footer = () => {
 
             <div className="text-center">
                 <span className="text-[1.4rem] font-semibold text-[#afd9ab]">Want to Collaborate ?<br/></span>
-                <a href="mailto:cseskct153prasanna.v@gmail.com" className=" underline text-[1.3rem] pt-[10px]">cseskct153prasanna.v@gmail.com</a>
+                <a href="mailto:cseskct153prasanna.v@gmail.com" className=" underline text-[1.2rem] pt-[10px]">cseskct153prasanna.v@gmail.com</a>
             </div>
 
             <div className="text-center">

@@ -195,7 +195,7 @@ const Home = () => {
                             mt-[20px] mr-[20px]">Not hoisted</button>
 
                         <button className="h-[35px] lg:h-[30px] pl-[15px] pr-[15px] rounded-[5px] xl:text-[1.3rem] font-semibold 
-                            mt-[10px] border-[1px] border-[#fec400]">Repository</button>
+                            mt-[10px] border-[1px] border-[#fec400]">Under Progress</button>
          
                     </div>
                 </div>

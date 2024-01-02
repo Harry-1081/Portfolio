@@ -33,7 +33,7 @@ const Home = () => {
             </div>
 
             {/*2 About */}
-            <div id="aboutsec" className="xl:flex xl:justify-center lg:h-[1000px] xl:h-[450px]">
+            <div id="aboutsec" className="xl:flex xl:justify-center">
                 <div className="bg-[#8282a825] xl:w-[85%] mb-[80px] xl:rounded-[10px] pl-[40px] pr-[40px]">
 
                     <div className="flex justify-center m-[40px] mb-[30px]">
@@ -128,7 +128,7 @@ const Home = () => {
             </div>
 
             {/* 5 Projects */}
-            <div className="flex-col h-[900px] mb-[150px] lg:h-[1400px]" id="projectsec">
+            <div className="flex-col mb-[150px]" id="projectsec">
 
                 <div className="pt-[40px] xl:ml-[220px] lg:flex lg:justify-center lg:text-center mb-[40px]">
                     <div className="w-[220px] border-b-4 border-[#00f1fe] pb-[4px]">
@@ -137,9 +137,9 @@ const Home = () => {
                 </div>
             
                 <div className="xl:flex xl:justify-evenly lg:flex-col">
-                    <div className="mb-[70px] lg:ml-[20px]">
+                    <div className="mb-[70px] lg:w-[90%] lg:ml-[5%]">
                         <img src="https://res.cloudinary.com/dnq6fx1oj/image/upload/v1704024897/004_bruylq.jpg" alt="proj1"
-                        className="xl:h-[240px] xl:w-[440px] lg:w-[350px] border-[10px] border-[#8282a825]"></img>
+                        className="xl:h-[240px] xl:w-[440px] border-[10px] border-[#8282a825]"></img>
 
                         <p className="text-[1.5rem] lg:text-[1.2rem] mt-[10px] font-Exo2 font-semibold">Donation and Fundraiser Platform</p>
                         
@@ -153,9 +153,9 @@ const Home = () => {
 
                     </div>
 
-                    <div className="mb-[70px] lg:ml-[20px]">
+                    <div className="mb-[70px] lg:w-[90%] lg:ml-[5%]">
                         <img src="https://res.cloudinary.com/dnq6fx1oj/image/upload/v1704024898/001_onlqpt.png" alt="proj1"
-                        className="xl:h-[240px] xl:w-[440px] lg:w-[350px] border-[10px] border-[#8282a825]"></img>
+                        className="xl:h-[240px] xl:w-[440px] border-[10px] border-[#8282a825]"></img>
                         
                         <p className="text-[1.5rem] lg:text-[1.2rem] mt-[10px] font-Exo2 font-semibold">E-Commerce Website</p>
                         
@@ -171,9 +171,9 @@ const Home = () => {
                 </div>
 
                 <div className="xl:flex xl:mt-[40px] xl:justify-evenly lg:flex-col">
-                    <div className="mb-[70px] lg:ml-[20px]">
+                    <div className="mb-[70px] lg:w-[90%] lg:ml-[5%]">
                         <img src="https://res.cloudinary.com/dnq6fx1oj/image/upload/v1704024898/Landing_Page_dumx66.jpg" alt="proj1"
-                        className="xl:h-[240px] xl:w-[440px] lg:w-[350px] border-[10px] border-[#8282a825]"></img>
+                        className="xl:h-[240px] xl:w-[440px] border-[10px] border-[#8282a825]"></img>
 
                         <p className="text-[1.5rem] lg:text-[1.2rem] mt-[10px] font-Exo2 font-semibold">Tic-Tac-Toe Game</p>
                         
@@ -185,9 +185,9 @@ const Home = () => {
                             mt-[10px] border-[1px] border-[#fec400]">Repository</button></a>
                     </div>
 
-                    <div className="mb-[70px] lg:ml-[20px]">
+                    <div className="mb-[70px] lg:w-[90%] lg:ml-[5%]">
                         <img src="https://res.cloudinary.com/dnq6fx1oj/image/upload/v1704024931/Incomplete_lnryax.jpg" alt="proj1"
-                        className="xl:h-[240px] xl:w-[440px] lg:w-[350px] border-[10px] border-[#8282a825]"></img>
+                        className="xl:h-[240px] xl:w-[440px] border-[10px] border-[#8282a825]"></img>
                         
                         <p className="text-[1.5rem] lg:text-[1.2rem] mt-[10px] font-Exo2 font-semibold">Legal Assistant AI</p>
                         

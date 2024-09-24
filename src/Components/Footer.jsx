@@ -1,7 +1,7 @@
 import { AiFillInstagram } from "react-icons/ai";
 import { VscGithub } from "react-icons/vsc";
 import { FaLinkedin } from "react-icons/fa";
-import { SiGeeksforgeeks,SiLeetcode,SiBuymeacoffee } from "react-icons/si";
+import { SiLeetcode,SiBuymeacoffee } from "react-icons/si";
 
 export const Footer = () => {
     return(
@@ -14,7 +14,6 @@ export const Footer = () => {
                     <a className="text-3xl p-[5px] font-bold" href="https://instagram.com/prasanna_harry/"  target="_blank" rel="noreferrer"><AiFillInstagram/></a>
                     <a className="text-3xl p-[5px] font-bold" href="https://github.com/Harry-1081"  target="_blank" rel="noreferrer"><VscGithub/></a>
                     <a className="text-3xl p-[5px] font-bold" href="https://www.linkedin.com/in/prasanna-v-224753224/"  target="_blank" rel="noreferrer"><FaLinkedin/></a>
-                    <a className="text-3xl p-[5px] font-bold" href="https://auth.geeksforgeeks.org/user/vprasanna2003/"  target="_blank" rel="noreferrer"><SiGeeksforgeeks/></a>
                     <a className="text-2xl p-[5px] font-bold" href="https://leetcode.com/prasanna1403/"  target="_blank" rel="noreferrer"><SiLeetcode/></a>
                     <a className="text-2xl p-[5px] font-bold" href="https://buymeacoffee.com/prasannaharry"  target="_blank" rel="noreferrer"><SiBuymeacoffee/></a>
                 </div>

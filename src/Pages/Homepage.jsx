@@ -14,10 +14,10 @@ const Home = () => {
                     <div className="mt-[40px]">
                         <p className="xl:text-4xl lg:text-2xl pb-[5px] font-bold">Hello, I'm</p>
                         <p className="xl:text-6xl lg:text-4xl pb-[10px] font-bold">Prasanna V</p>
-                        <p className="xl:text-[1.2rem] lg:text-[1.1rem] pb-[5px] xl:w-[340px] lg:w-[295px] text-poppins">Programmer, Full Stack Developer & 
-                        AI Enthusiast. I'm Skilled in OOP and Java based applications/websites.</p>
+                        <p className="xl:text-[1.2rem] lg:text-[1.1rem] pb-[5px] xl:w-[340px] lg:w-[295px] text-poppins">Full Stack Developer & 
+                        AI Engineer. I'm Skilled in OOP, Python and Java based applications.</p>
 
-                        <a href="https://drive.google.com/file/d/1QrVNl16-G6-36qItrlS9HbWendK50aD5/" target="_blank" rel="noreferrer">
+                        <a href="https://drive.google.com/file/d/1p2uxaX8BCw1pv1JuCc1D2XCGTG6mEQJr/view" target="_blank" rel="noreferrer">
                             <button className="bg-[#fec400] h-[45px] w-[110px] lg:w-[90px] rounded-[5px] text-[#1a1a29] xl:text-[1.3rem] font-semibold 
                             mt-[20px] mr-[20px]">Resume</button></a>
 
@@ -55,6 +55,10 @@ const Home = () => {
                             I'm passionate to explore new tools and techniques to streamline my development process and also deliver efficient solutions
                             to real world problems. Recently, I'm also pushing my boundaries to learn about<span className="xl:hidden"> interesting </span> technological advancements such as 
                             <b> Web3</b> and <b>Natural Language Processing.</b></p>
+                            <p className="text-[1.25rem] font-Exo2 pt-[10px] xl:text-justify xl:indent-[70px] lg:text-justify">
+                               I have also worked as <b>AI Engineer Intern</b> at <b>IBM</b> between July 2024 to September 2024 during which I have Implemented and <b>fine-tuned 
+                               LLM models</b>, customizing solutions to meet specific project requirements and performance goals. I have also expanded my knowledge of AI technologies,
+                               focusing on the practical application of advanced AI and machine learning models.</p>
                         </div>
                     </div>
                     </div>
@@ -64,8 +68,8 @@ const Home = () => {
         <div class="box3 flex items-center justify-evenly lg:flex-col xl:h-[331px] mt-[40px] lg:mb-[40px] xl:text-[#1a1a29] bg-[#1a1a29]">
 
                     <div class='counter rounded-[100px] xl:bg-[#fec400] w-[170px] xl:h-[170px] pt-[25px] lg:h-[144px] text-center'>
-                        <span class="box3-value text-4xl  font-bold">02</span>
-                        <span class="box3-f1-head text-[1.3rem] xl:font-semibold">+<br/>Years of<br/>Experience<br/></span>
+                        <span class="box3-value text-4xl  font-bold">03</span>
+                        <span class="box3-f1-head text-[1.3rem] xl:font-semibold">*<br/>Months of<br/>Experience<br/></span>
                     </div>
 
                     <div class='counter rounded-[100px] xl:bg-[#fec400] w-[170px] xl:h-[170px] pt-[25px] lg:h-[144px] text-center'>
@@ -93,7 +97,7 @@ const Home = () => {
                <li className=" text-[1.2rem] text-Exo2">CSS3</li>
                <li className=" text-[1.2rem] text-Exo2">Tailwind CSS</li>
                <li className=" text-[1.2rem] text-Exo2">ReactJs</li>
-               <li className=" text-[1.2rem] text-Exo2">Javascrilit</li>
+               <li className=" text-[1.2rem] text-Exo2">Javascript</li>
             </ul>
             </div>
 
@@ -105,24 +109,25 @@ const Home = () => {
             </span>
             <ul class="box4-f2-subhead text-left list-disc">
                <li className=" text-[1.2rem] text-Exo2  list-disc">Spring Boot</li>
-               <li className=" text-[1.2rem] text-Exo2">MySQL</li>
-               <li className=" text-[1.2rem] text-Exo2">NLP*</li>
-               <li className=" text-[1.2rem] text-Exo2">Selenium</li>
+               <li className=" text-[1.2rem] text-Exo2">Flask API, MySQL</li>
+               <li className=" text-[1.2rem] text-Exo2">Selenium Testing</li>
                <li className=" text-[1.2rem] text-Exo2">Amazon AWS</li>
+               <li className=" text-[1.2rem] text-Exo2">Java, C++</li>
             </ul>
             </div>
 
             <div class="box4-f2 xl:w-[320px] flex flex-col gap-5 items-center bg-[#8282a825] rounded-[10px] lg:w-[90%]  xl:h-[260px] lg:py-8 lg:px-5  xl:p-4 xl:text-center">
             <span class="box4-f2-head text-2xl">
                 <p className="text-3xl font-Exo2 border-b-4 border-[#00f1fe] p-[4px] text-[#fec400] font-semibold">
-                Other Skills
+                AI/ML Skills
                 </p>
             </span>
             <ul class="box4-f2-subhead text-left list-disc">
-               <li className=" text-[1.2rem] text-Exo2  list-disc">Communication</li>
-               <li className=" text-[1.2rem] text-Exo2">Leadership</li>
-               <li className=" text-[1.2rem] text-Exo2">Creative Writing</li>
-               <li className=" text-[1.2rem] text-Exo2">Photography</li>
+               <li className=" text-[1.2rem] text-Exo2">LLMs</li>
+               <li className=" text-[1.2rem] text-Exo2">RAG Models</li>
+               <li className=" text-[1.2rem] text-Exo2">Prompt Engineering</li>
+               <li className=" text-[1.2rem] text-Exo2  list-disc">Python & it's libraries</li>
+               <span>( NumPy, Pandas, Keras)</span>
             </ul>
             </div>
             </div>
@@ -171,7 +176,7 @@ const Home = () => {
                 </div>
 
                 <div className="xl:flex xl:mt-[40px] xl:justify-evenly lg:flex-col">
-                    <div className="mb-[70px] lg:w-[90%] lg:ml-[5%]">
+                    {/* <div className="mb-[70px] lg:w-[90%] lg:ml-[5%]">
                         <img src="https://res.cloudinary.com/dnq6fx1oj/image/upload/v1704024898/Landing_Page_dumx66.jpg" alt="proj1"
                         className="xl:h-[240px] xl:w-[440px] border-[10px] border-[#8282a825]"></img>
 
@@ -183,7 +188,7 @@ const Home = () => {
                         <a href="https://github.com/Harry-1081/Tic-Tac-Toe" target="_blank" rel="noreferrer">
                             <button className="h-[35px] lg:h-[30px] pl-[15px] pr-[15px] rounded-[5px] xl:text-[1.3rem] font-semibold 
                             mt-[10px] border-[1px] border-[#fec400]">Repository</button></a>
-                    </div>
+                    </div> */}
 
                     <div className="mb-[70px] lg:w-[90%] lg:ml-[5%]">
                         <img src="https://res.cloudinary.com/dnq6fx1oj/image/upload/v1704024931/Incomplete_lnryax.jpg" alt="proj1"
